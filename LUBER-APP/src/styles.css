@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
     padding: 20px;
     background-color: #3a3a3a;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px #3745ff;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -33,7 +33,9 @@ h1 {
     align-items: center;
 }
 
-.gastofixo, .gastovariavel, .gastototal {
+.gastofixo,
+.gastovariavel,
+.gastototal {
     margin: 20px 0;
     padding: 15px;
     border: 1px solid #444;
@@ -53,7 +55,6 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* Centraliza o texto */
 }
 
 label {
@@ -78,13 +79,9 @@ input[type="number"]::placeholder {
 }
 
 input[type="number"]:focus {
-    border-color: #00aaff;
-    box-shadow: 0 0 5px #00aaff;
+    border-color: #3745ff;
+    box-shadow: 0 0 5px #3745ff;
     outline: none;
-}
-
-input[type="number"] {
-    -moz-appearance: textfield;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -94,13 +91,13 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .gastototal {
-    text-align: center; /* Centraliza todo o conteúdo da seção "Custos Totais" */
+    text-align: center;
 }
 
 .gastototal p {
-    font-size: 1.2em; /* Aumenta o tamanho da fonte dos itens */
-    margin: 10px 0; /* Adiciona margem entre os itens */
-    color: #00aaff; /* Define a cor dos itens */
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #00aaff;
 }
 
 .gastototal h3 {
