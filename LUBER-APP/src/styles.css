@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gastofixo, .gastovariavel, .gastototal {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #444;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.total-costs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #555;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+input[type="number"]::placeholder {
+    color: #888;
+}
+
+input[type="number"]:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 5px #00aaff;
+    outline: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.gastototal {
+    text-align: center; /* Centraliza todo o conteúdo da seção "Custos Totais" */
+}
+
+.gastototal p {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos itens */
+    margin: 10px 0; /* Adiciona margem entre os itens */
+    color: #00aaff; /* Define a cor dos itens */
+}
+
+.gastototal h3 {
+    font-weight: bold;
+    color: #00aaff;
+}
+
+#pagamentoporkm {
+    color: #00ff00;
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 92%;
+        padding: 10px;
+    }
+
+    input {
+        padding: 8px;
+    }
+}
