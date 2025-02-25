@@ -21,7 +21,7 @@ function VariableCosts({ variableCosts, onChange }) {
                 <input type="number" id="custoManutencao" value={variableCosts.custoManutencao} onChange={onChange} placeholder="R$ 0" />
             </label>
             <label>
-                Custo dos Pneus:
+                Custo do jogo de pneu:
                 <input type="number" id="custoPneus" value={variableCosts.custoPneus} onChange={onChange} placeholder="R$ 0" />
             </label>
             <label>
