@@ -1,1 +1,1 @@
-Site para motoristas de aplicativos fazerem os calculos de faturamento mensal
+Site para ajudar motoristas de aplicativos a fazerem os calculos de metas e faturamento diario e mensal
