@@ -2,7 +2,7 @@ body {
     font-family: 'roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2c2c2c;
+    background-color: #0f0f0f;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
     max-width: 800px;
     margin: 20px;
     padding: 20px;
-    background-color: #3a3a3a;
+    background-color: #1d1d1d;
     border-radius: 10px;
     box-shadow: 0 0 20px #ffffff;
     box-sizing: border-box;
@@ -114,10 +114,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .logo {
-    width: 35dvh;
+    width: 40dvh;
     height: auto;
     margin-bottom: 0px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .logo-separator {
@@ -125,6 +125,37 @@ input[type="number"]::-webkit-inner-spin-button {
     border: 0;
     border-top: 2px solid #ffffff;
     margin: 20px 0;
+}
+
+.cost-details {
+    padding: 30px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.cost-details h2,
+.cost-details h3 {
+    color: #ffffff;
+    text-align: center;
+    padding-right: 15dvh;
+}
+
+.DetailSeparator {
+    width: 50%;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: 20px 0;
+}
+
+.cost-details p,
+.cost-details li,
+.cost-details ul {
+    margin: 10px 0;
+}
+
+.cost-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 @media (max-width: 600px) {
@@ -135,7 +166,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     .logo{
-        width: 20dvh;
+        width: 30dvh;
         height: auto;
         margin-bottom: 0px;
         padding: 10px;
