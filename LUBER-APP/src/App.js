@@ -3,6 +3,7 @@ import FixedCosts from './components/FixedCosts';
 import VariableCosts from './components/VariableCosts';
 import TotalCosts from './components/TotalCosts';
 import './styles.css';
+import logo from './assets/logo.png';
 
 function App() {
     const [fixedCosts, setFixedCosts] = useState({
@@ -87,9 +88,12 @@ function App() {
 
     return (
         <div className="container">
-            <h1>LUBER</h1>
+            <img src={logo} alt="LUBER Logo" className="logo" />
+            <hr className="logo-separator" />
             <FixedCosts fixedCosts={fixedCosts} onChange={handleFixedCostChange} />
+            <hr className="logo-separator" />
             <VariableCosts variableCosts={variableCosts} onChange={handleVariableCostChange} />
+            <hr className="logo-separator" />
             <TotalCosts totalDaily={totalDaily} costPerKm={costPerKm} paymentPerKm={paymentPerKm} metaDiaria={metaDiaria} salarioMensal={salarioMensal}/>
         </div>
     );

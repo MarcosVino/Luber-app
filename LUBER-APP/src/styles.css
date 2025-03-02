@@ -11,16 +11,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
-    text-shadow: #3745ff 0 0 20px;
-}
-
 .container {
     width: 90%;
     max-width: 800px;
@@ -28,7 +18,7 @@ h1 {
     padding: 20px;
     background-color: #3a3a3a;
     border-radius: 10px;
-    box-shadow: 0 0 20px #3745ff;
+    box-shadow: 0 0 20px #ffffff;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -55,7 +45,7 @@ h2 {
 
 .total-costs {
     border-radius: 13px;
-    box-shadow: 0 0 20px #3745ff;
+    box-shadow: 0 0 20px #969696;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -67,7 +57,7 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     background-color: #353535;
-    margin: 15px;
+    margin: 25px;
 }
 
 label {
@@ -92,8 +82,8 @@ input[type="number"]::placeholder {
 }
 
 input[type="number"]:focus {
-    border-color: #3745ff;
-    box-shadow: 0 0 5px #3745ff;
+    border-color: #fff;
+    box-shadow: 0 0 5px #fff;
     outline: none;
 }
 
@@ -123,12 +113,33 @@ input[type="number"]::-webkit-inner-spin-button {
     font-size: 1.5em;
 }
 
+.logo {
+    width: 35dvh;
+    height: auto;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+.logo-separator {
+    width: 90%;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: 20px 0;
+}
+
 @media (max-width: 600px) {
     .container {
-        width: 94%;
+        width: auto;
+        height: auto;
         padding: 10px;
     }
 
+    .logo{
+        width: 20dvh;
+        height: auto;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
     input {
         padding: 8px;
     }
